@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prime Properties | Find Your Perfect Property in Nigeria</title>
+  <meta name="description" content="Explore sample homes, land and commercial properties across Nigeria with Prime Properties. Buy, rent or find your next investment.">
+  <meta property="og:title" content="Prime Properties | Homes, Investments, Better Living">
+  <meta property="og:description" content="Explore sample homes, land and commercial properties across Nigeria.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p>Demo office: Central Business District, Abuja</p>
+      <div class="topbar-contact">
+        <a href="tel:+2348000000000">+234 800 000 0000 <span>(demo)</span></a>
+        <a href="mailto:hello@example.com">hello@example.com <span>(demo)</span></a>
+        <div class="social-links" aria-label="Social media">
+          <a href="https://www.instagram.com/" aria-label="Instagram">ig</a>
+          <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Prime Properties home"><span class="brand-mark">P</span><span>Prime<span class="brand-light"> Properties</span><small>HOMES | INVESTMENTS | BETTER LIVING</small></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a><a href="properties.html" data-nav="properties">Properties</a><a href="index.html#services">Services</a><a href="about.html" data-nav="about">About Us</a><a href="about.html#insights">Blog</a><a href="contact.html" data-nav="contact">Contact</a>
+        <a class="button button-orange nav-whatsapp" href="https://wa.me/2348000000000?text=Hello%20Prime%20Properties%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">WhatsApp <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light">A BETTER WAY TO FIND YOUR PLACE</p>
+        <h1>Find Your Perfect<br>Property in Nigeria</h1>
+        <p class="hero-copy">Buy, sell or rent quality houses, apartments, land and commercial properties across Nigeria.</p>
+        <div class="search-panel">
+          <div class="search-tabs" role="tablist" aria-label="Property purpose">
+            <button class="search-tab is-active" type="button" role="tab" aria-selected="true" data-search-intent="sale">Buy</button>
+            <button class="search-tab" type="button" role="tab" aria-selected="false" data-search-intent="rent">Rent</button>
+            <button class="search-tab" type="button" role="tab" aria-selected="false" data-search-intent="land">Land</button>
+            <button class="search-tab" type="button" role="tab" aria-selected="false" data-search-intent="commercial">Commercial</button>
+          </div>
+          <form class="hero-search" id="hero-search">
+            <label><span>Location</span><select name="location"><option value="">Any location</option><option>Abuja</option><option>Lagos</option><option>Port Harcourt</option><option>Ibadan</option><option>Enugu</option><option>Kano</option></select></label>
+            <label><span>Property type</span><select name="type"><option value="">Any type</option><option value="detached duplex">Detached duplex</option><option value="apartment">Apartment</option><option value="land">Land</option><option value="commercial">Commercial</option></select></label>
+            <label><span>Price range</span><select name="price"><option value="">Any price</option><option value="0-25000000">Under ₦25m</option><option value="25000000-100000000">₦25m – ₦100m</option><option value="100000000-300000000">₦100m – ₦300m</option><option value="300000000-">Over ₦300m</option></select></label>
+            <button class="button button-orange search-submit" type="submit">Search Properties <span aria-hidden="true">→</span></button>
+          </form>
+        </div>
+        <p class="hero-note">Explore demo listings in Abuja, Lagos and across Nigeria.</p>
+      </div>
+      <a class="scroll-cue" href="#featured" aria-label="Scroll to featured properties">↓</a>
+    </section>
+
+    <section class="section section-featured" id="featured">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">CURATED FOR YOU</p><h2>Featured properties</h2><p class="section-intro">A selection of sample listings to help you imagine what’s possible.</p></div>
+          <a class="text-link desktop-link" href="properties.html">View all properties <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="property-grid" id="featured-properties" aria-live="polite"></div>
+        <a class="button button-outline mobile-all-link" href="properties.html">View All Properties <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section benefits-section">
+      <div class="container">
+        <div class="center-heading"><p class="eyebrow">THE PRIME DIFFERENCE</p><h2>A more confident property journey</h2><p class="section-intro">Helpful people, clear information and practical support at every step.</p></div>
+        <div class="benefit-grid">
+          <article class="benefit-card"><span class="icon-tile" aria-hidden="true">✓</span><h3>Carefully selected</h3><p>We organise listing information clearly so you can compare your options with confidence.</p></article>
+          <article class="benefit-card"><span class="icon-tile" aria-hidden="true">♡</span><h3>People-first service</h3><p>Get thoughtful support shaped around your needs, timeline and budget.</p></article>
+          <article class="benefit-card"><span class="icon-tile" aria-hidden="true">⌖</span><h3>Local guidance</h3><p>Explore neighbourhoods and property choices across Nigeria with a helpful guide.</p></article>
+          <article class="benefit-card"><span class="icon-tile" aria-hidden="true">↗</span><h3>Investment insight</h3><p>Discover opportunities and ask the right questions before making your next move.</p></article>
+        </div>
+        <p class="demo-note">All listings and company information on this demonstration site are illustrative and must be verified independently.</p>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">WHAT WE DO</p><h2>Property services, made simple</h2><p class="section-intro">Whether you’re looking for a home or managing an investment, start with the right support.</p></div><a class="text-link desktop-link" href="contact.html">Talk to our team <span aria-hidden="true">→</span></a></div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon" aria-hidden="true">⌂</span><h3>Property Sales</h3><p>Explore homes and investment properties suited to your plans.</p><a href="properties.html?intent=sale" class="text-link">Explore sales <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">⌑</span><h3>Property Rentals</h3><p>Find a place to rent, from city apartments to family homes.</p><a href="properties.html?intent=rent" class="text-link">Find a rental <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">▧</span><h3>Land Acquisition</h3><p>Browse sample land listings and get guidance on your next steps.</p><a href="properties.html?type=land" class="text-link">Browse land <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><span class="service-icon" aria-hidden="true">⚒</span><h3>Property Management</h3><p>Practical support for landlords looking after their properties.</p><a href="contact.html" class="text-link">Learn more <span aria-hidden="true">→</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-preview">
+      <div class="container about-preview-grid">
+        <div class="about-photo"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Contemporary home with a landscaped garden" loading="lazy"><span class="photo-caption">A considered approach to finding your place</span></div>
+        <div class="about-copy"><p class="eyebrow">WELCOME TO PRIME PROPERTIES</p><h2>Helping you make your next move with confidence.</h2><p>Finding property is about more than a listing. It’s about the right information, a trusted conversation and a home or investment that fits your life.</p><p>Prime Properties is a demonstration brand created to show how a property search experience can work. Our sample listings and contact details are not live offers.</p><a class="button button-navy" href="about.html">Discover Our Approach <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+
+    <section class="cta-band"><div class="container cta-inner"><div><p class="eyebrow eyebrow-light">YOUR NEXT CHAPTER STARTS HERE</p><h2>Ready to Find Your Next Property?</h2><p>Let our team help you find a home or investment that matches your needs.</p></div><div class="cta-actions"><a class="button button-white" href="properties.html">Explore Properties <span aria-hidden="true">→</span></a><a class="button button-orange" href="https://wa.me/2348000000000?text=Hello%20Prime%20Properties%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">Chat on WhatsApp <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="section testimonials-section">
+      <div class="container"><div class="center-heading"><p class="eyebrow">KIND WORDS</p><h2>Experiences we aspire to deliver</h2><p class="section-intro">The following are fictional sample testimonials for demonstration only.</p></div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card"><div class="stars" aria-label="Five out of five stars">★★★★★</div><blockquote>“The process felt clear from the first conversation. I knew what questions to ask and what to look for.”</blockquote><div class="testimonial-person"><span class="avatar">AO</span><span><strong>Ada O.</strong><small>Fictional sample testimonial</small></span></div></article>
+          <article class="testimonial-card"><div class="stars" aria-label="Five out of five stars">★★★★★</div><blockquote>“Having the details laid out made comparing homes much easier. The guidance was thoughtful and practical.”</blockquote><div class="testimonial-person"><span class="avatar">TM</span><span><strong>Tunde M.</strong><small>Fictional sample testimonial</small></span></div></article>
+          <article class="testimonial-card"><div class="stars" aria-label="Five out of five stars">★★★★★</div><blockquote>“I appreciated the friendly approach and the time taken to understand what mattered to my family.”</blockquote><div class="testimonial-person"><span class="avatar">CN</span><span><strong>Chika N.</strong><small>Fictional sample testimonial</small></span></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about"><a class="brand brand-footer" href="index.html"><span class="brand-mark">P</span><span>Prime<span class="brand-light"> Properties</span><small>HOMES | INVESTMENTS | BETTER LIVING</small></span></a><p>Helping people explore property opportunities and make their next move with confidence. Sample content for demonstration purposes.</p><div class="social-links footer-social"><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a></div></div>
+      <div><h2>Explore</h2><ul><li><a href="index.html">Home</a></li><li><a href="properties.html">Properties</a></li><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h2>Property types</h2><ul><li><a href="properties.html?type=detached%20duplex">Houses</a></li><li><a href="properties.html?type=apartment">Apartments</a></li><li><a href="properties.html?type=land">Land</a></li><li><a href="properties.html?type=commercial">Commercial</a></li></ul></div>
+      <div><h2>Get in touch</h2><ul class="footer-contact"><li>Central Business District, Abuja <small>(demo address)</small></li><li><a href="tel:+2348000000000">+234 800 000 0000 <small>(demo)</small></a></li><li><a href="mailto:hello@example.com">hello@example.com <small>(demo)</small></a></li></ul></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-current-year></span> Prime Properties. Demo website and sample content.</p><p>Listings, testimonials, contact information and office location are illustrative only.</p></div>
+  </footer>
+</body>
+</html>
